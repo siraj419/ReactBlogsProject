@@ -1,4 +1,4 @@
-import { people, peopleShape } from "../../../db/people"
+import { people, peopleShape } from "../../../db/people.ts"
 import People from "./People"
 
 const PeopleCard = () => {
