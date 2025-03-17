@@ -1,5 +1,5 @@
 import { FC, useState } from "react";
-import { peopleShape } from "../db/people";
+import { peopleShape } from "../../../db/people";
 import { BiUserCircle } from "react-icons/bi";
 
 const People : FC<{data: peopleShape}> = ({data}) => {
